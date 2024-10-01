@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.week_3_visual_programming.ui.theme.Week3VisualProgrammingTheme
+import com.example.week_3_visual_programming.ui.views.CalculatorApp
 import com.example.week_3_visual_programming.ui.views.ReactionTimeTest
 import com.example.week_3_visual_programming.ui.views.VerySimpleNote
 
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Week3VisualProgrammingTheme {
                 // VerySimpleNote()
-                ReactionTimeTest()
+                CalculatorApp()
             }
         }
     }
